@@ -29,7 +29,7 @@ def grade_set1(s1_1_1, s1_1_2, s1_1_3, s1_2_1, s1_2_2, s1_3_vis, s1_3_vis_eff, s
     # [서논술형 1]
     # (1) 쉬운 과제
     ans1 = normalize(s1_1_1)
-    if check_keywords(ans1, ["쉬운", "친숙", "노력이 필요 없는", "취미"]):
+    if check_keywords(ans1, ["쉬운", "친숙", "노력이 필요 없는", "취미", "일상적인"]):
         results["1-1-(1)"] = (1.0, "정답")
     else:
         results["1-1-(1)"] = (0.0, "오답 ('쉬운/친숙한 과제' 의미 누락)")
